@@ -13,11 +13,22 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  width: 128rem;
+  height: 72rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#hero {
+  margin: 0 auto;
+  width: 59.2rem;
+  height: 57.9rem;
 }
 
 #hero img {
   width: 34.8rem;
   height: 22.3rem;
+  margin-bottom: 7.2rem;
 }
 
 h1 span, p span, a {
@@ -28,6 +39,7 @@ h1 {
   font-family: 'Inter', sans-serif;
   font-size: 4.9rem;
   line-height: 5.6rem;
+  margin-bottom: 3.2rem;
 }
 
 p {
@@ -37,8 +49,21 @@ p {
   line-height: 2.8rem;
 }
 
+#footer {
+  border-top: 0.1rem solid #ECEFF2;
+  width: 59.2rem;
+  margin: 7.2rem auto;
+}
+
 a {
   text-decoration: none;
   font-size: 1.4rem;
   line-height: 2.8rem;
+  
+}
+
+#footer img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
